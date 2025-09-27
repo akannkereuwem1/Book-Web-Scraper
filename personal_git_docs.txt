@@ -1,0 +1,5 @@
+COMMANDS - IMPOERTANT
+- to add a git ignore: touch .gitignore
+
+- requiremments.txt generates all the requirments from the venv
+    to create it: pip freeze > requirements.txt
