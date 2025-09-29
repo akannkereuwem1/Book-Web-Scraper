@@ -8,7 +8,7 @@
 import hashlib
 import pymongo
 from itemadapter import ItemAdapter
-from scrapy.exceptions import DROPITEM
+# from scrapy.exceptions import DropItem
 
 class MongoPipeline:
     COLLECTION_NAME = "books"

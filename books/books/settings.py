@@ -87,3 +87,8 @@ ITEM_PIPELINES = {
 FEED_EXPORT_ENCODING = "utf-8"
 MONGO_URI = "mongodb://localhost:27017"
 MONGO_DATABASE = "books_db"
+
+#Ensure that python only writes warnings to the log file
+LOG_LEVEL = "WARNING" #this makes python only log messages of high severity
+LOG_FILE = "book_scraper.log"
+
