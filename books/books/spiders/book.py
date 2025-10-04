@@ -7,7 +7,7 @@ class BookSpider(scrapy.Spider):
     start_urls = ["https://books.toscrape.com/"]
 
     #use .log_error() for the initial request to Books to Scrape
-    def start_requests(self):
+    async def start(self):
         for url in self.start_urls:
             yield scrapy.Request(
                 url,

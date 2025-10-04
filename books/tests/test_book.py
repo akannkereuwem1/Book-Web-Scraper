@@ -2208,7 +2208,7 @@ class BookSpiderTest(unittest.TestCase):
   
             <!-- jQuery -->
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="static/oscar/js/jquery/jquery-1.9.1.min.js"><\/script>')</script>
+            <script>window.jQuery || document.write('<script src="static/oscar/js/jquery/jquery-1.9.1.min.js">< /script>')</script>
         
   
 
